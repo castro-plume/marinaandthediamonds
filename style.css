@@ -1,0 +1,76 @@
+/*Selector{
+	Property: value;
+}*/
+
+* {
+	text-align: center;
+}
+
+body{
+	background-image: url(https://www.bongminesentertainment.com/wp-content/uploads/2021/12/MARINA-%E2%80%93-Ancient-Dreams-In-A-Modern-Land-press-photo.jpg);
+	background-size: cover;
+}
+
+h2, p {
+	color: red;
+	text-align: center;
+	border: 10px solid deeppink;
+}
+
+h2:hover, p:hover {
+	color: floralwhite;
+	text-align: center;
+	border:5px solid deeppink;
+	cursor: pointer;
+}
+
+p{
+	color: black;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+footer{
+	clear: both;
+	font-size: 500%;
+	text-align: center;
+	display: inline-block;
+}
+
+footer:hover{
+	cursor: pointer;
+	clear: both;
+	font-size: 500%;
+	text-align: center;
+	color: white;
+	display: inline-block;
+}
+
+img{
+	float: left;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	border: 5px solid hotpink;
+	background-color: lightpink;
+}
+
+.webtext{
+	border: 2px dashed blueviolet;
+}
+
+.active{
+	color: whitesmoke;
+}
+
+#div1 {
+	background: rgba(60, 0, 200, .25);
+}
+
+#div2 {
+	background: rgba(200, 0, 60, .25);
+}
